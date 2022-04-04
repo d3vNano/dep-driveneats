@@ -24,8 +24,8 @@
         <div class="container">
             <span>
                 <h5>Primeiro, sua fome!</h5>
-                <span class="rango item-cont">
-                    <div id="rango-1" class="item-block" onclick="escolherRango1()">
+                <span class="item-cont rango">
+                    <div class="item-block" onclick="Rango(this)">
                         <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://media.istockphoto.com/photos/rustic-homemade-bacon-smashburger-picture-id1248292981?b=1&k=20&m=1248292981&s=170667a&w=0&h=QJpuCiEVABpy_G4-3OVQFNVsDKcUlynwRmbONO4vwRI=">
@@ -36,7 +36,8 @@
                             <p class="valor">R$9,90</p>
                         </div>
                     </div>
-                    <div id="rango-2" class="item-block" onclick="escolherRango2()">
+                    <div class="item-block" onclick="Rango(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://media.istockphoto.com/photos/rustic-homemade-bacon-smashburger-picture-id1248292981?b=1&k=20&m=1248292981&s=170667a&w=0&h=QJpuCiEVABpy_G4-3OVQFNVsDKcUlynwRmbONO4vwRI=">
                         </div>
@@ -46,7 +47,8 @@
                             <p class="valor">R$17,90</p>
                         </div>
                     </div>
-                    <div id="rango-3" class="item-block" onclick="escolherRango3()">
+                    <div class="item-block" onclick="Rango(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://media.istockphoto.com/photos/rustic-homemade-bacon-smashburger-picture-id1248292981?b=1&k=20&m=1248292981&s=170667a&w=0&h=QJpuCiEVABpy_G4-3OVQFNVsDKcUlynwRmbONO4vwRI=">
                         </div>
@@ -56,7 +58,8 @@
                             <p class="valor">R$24,90</p>
                         </div>
                     </div>
-                    <div id="rango-4" class="item-block" onclick="escolherRango4()">
+                    <div class="item-block" onclick="Rango(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://media.istockphoto.com/photos/rustic-homemade-bacon-smashburger-picture-id1248292981?b=1&k=20&m=1248292981&s=170667a&w=0&h=QJpuCiEVABpy_G4-3OVQFNVsDKcUlynwRmbONO4vwRI=">
                         </div>
@@ -66,7 +69,8 @@
                             <p class="valor">R$32,90</p>
                         </div>
                     </div>
-                    <div id="rango-5" class="item-block" onclick="escolherRango5()">
+                    <div class="item-block" onclick="Rango(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://media.istockphoto.com/photos/rustic-homemade-bacon-smashburger-picture-id1248292981?b=1&k=20&m=1248292981&s=170667a&w=0&h=QJpuCiEVABpy_G4-3OVQFNVsDKcUlynwRmbONO4vwRI=">
                         </div>
@@ -80,8 +84,9 @@
             </span>
             <span>
                 <h5>Agora, sua sede!</h5>
-                <span class="gole item-cont">
-                    <div id="gole-1" class="item-block" onclick="escolherGole1()">
+                <span class="item-cont gole">
+                    <div class="item-block" onclick="Gole(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://www.propellermkt.com.br/wp-content/uploads/2020/07/Depositphotos_121249802_l-2015-1024x678.jpg">
                         </div>
@@ -91,7 +96,8 @@
                             <p class="valor">R$15,90</p>
                         </div>
                     </div>
-                    <div id="gole-2" class="item-block" onclick="escolherGole2()">
+                    <div class="item-block" onclick="Gole(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://www.propellermkt.com.br/wp-content/uploads/2020/07/Depositphotos_121249802_l-2015-1024x678.jpg">
                         </div>
@@ -101,7 +107,8 @@
                             <p class="valor">R$15,90</p>
                         </div>
                     </div>
-                    <div id="gole-3" class="item-block" onclick="escolherGole3()">
+                    <div class="item-block" onclick="Gole(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://www.propellermkt.com.br/wp-content/uploads/2020/07/Depositphotos_121249802_l-2015-1024x678.jpg">
                         </div>
@@ -111,7 +118,8 @@
                             <p class="valor">R$15,90</p>
                         </div>
                     </div>
-                    <div id="gole-4" class="item-block" onclick="escolherGole4()">
+                    <div class="item-block" onclick="Gole(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://www.propellermkt.com.br/wp-content/uploads/2020/07/Depositphotos_121249802_l-2015-1024x678.jpg">
                         </div>
@@ -125,8 +133,9 @@
             </span>
             <span>
                 <h5>Por fim, seu desejo</h5>
-                <span class="doce item-cont">
-                    <div id="doce-1" class="item-block" onclick="escolherDoce1()">
+                <span class="item-cont doce">
+                    <div class="item-block" onclick="Doce(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://harald.com.br/wp-content/uploads/2020/08/Copo-da-Felicidade_1000x1000.jpg">
                         </div>
@@ -136,7 +145,8 @@
                             <p class="valor">R$15,90</p>
                         </div>
                     </div>
-                    <div id="doce-2" class="item-block" onclick="escolherDoce2()">
+                    <div class="item-block" onclick="Doce(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://harald.com.br/wp-content/uploads/2020/08/Copo-da-Felicidade_1000x1000.jpg">
                         </div>
@@ -146,7 +156,8 @@
                             <p class="valor">R$15,90</p>
                         </div>
                     </div>
-                    <div id="doce-3" class="item-block" onclick="escolherDoce3()">
+                    <div class="item-block" onclick="Doce(this)">
+                        <ion-icon name="checkmark-circle"></ion-icon>
                         <div class="img">
                             <img src="https://harald.com.br/wp-content/uploads/2020/08/Copo-da-Felicidade_1000x1000.jpg">
                         </div>
@@ -160,8 +171,8 @@
             </span>
         </div>
         <footer>
-            <span>
-                <p id="finalizar">Selecione os 3 itens para fechar o pedido</p>
+            <span class="button" >
+                <p>Selecione os 3 itens para fechar o pedido</p>
             </span>
         </footer>
 
